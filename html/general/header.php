@@ -6,7 +6,7 @@
             </h1>
         </div>
         <form id="search-form" action = "" method="post">
-            <input type="text" name="search" placeholder="Search job shadowing"/>
+            <input type="text" id="search_inp" name="search" placeholder="Search job shadowing"/>
             <a><i class="fa fa-search" aria-hidden="true"></i></a>
         </form>
         <nav>
@@ -19,3 +19,4 @@
         </nav>
     </div>
 </header>
+<script src="views/javascript/search.js" type="text/javascript"></script>

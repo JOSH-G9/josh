@@ -1,54 +1,55 @@
+
 <div id="main_search">
     <div id="contents">
-        <div id="content01" class="content">
-            <a href="?page=results">
-                <div id="contents_title">
-                    <h2>content 1</h2>
-                </div>
-                <div id="contents_description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </a>
-        </div>
-        <div id="content02" class="content">
-            <a href="?page=results">
-                <div id="contents_title">
-                    <h2>content 2</h2>
-                </div>
-                <div id="contents_description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </a>
-        </div>
-        <div id="content03" class="content">
-            <a href="?page=results">
-                <div id="contents_title">
-                    <h2>content 3</h2>
-                </div>
-                <div id="contents_description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </a>
-        </div>
-        <div id="content04" class="content">
-            <a href="?page=results">
-                <div id="contents_title">
-                    <h2>content 4</h2>
-                </div>
-                <div id="contents_description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </a>
-        </div>
-        <div id="content05" class="content">
-            <a href="?page=results">
-                <div id="contents_title">
-                    <h2>content 5</h2>
-                </div>
-                <div id="contents_description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </a>
-        </div>
+        <?php
+            if (!empty($_GET['term'])) {
+                $term = $_GET['term'];
+                $db = new Connection();
+
+                $sql = "SELECT j.*, c.description cat_desc FROM jobs j " .
+                    "inner join category c on (c.id = j.category_id) ".
+                    "WHERE j.description like '%$term%'";
+
+                $result = $db->query($sql);
+
+                if ($result->num_rows > 0) {
+                    while($row = $result->fetch_assoc()) {
+                        echo "<div id='content01' class='content'>".
+                            "<a href='?page=results'>".
+                            "<div id='contents_title'>".
+                                "<h2>".$row["cat_desc"]."</h2>".
+                            "</div>".
+                            "<div id='contents_description'>".
+                                "<p>".$row["description"]."</p>".
+                            "</div>".
+                            "</a>".
+                            "</div>"; 
+                    }
+                } else {
+                    echo "<div id='content01' class='content'>".
+                    "Nothing found".
+                    "<div>";
+                    }
+                $db->close();
+
+            } else {
+                echo "<div id='content01' class='content'>".
+                "Nothing found".
+                "<div>";
+            }
+        ?>
     </div>
 </div>
+
+<script>
+function setup() {
+    var search_inp = document.getElementById('search_inp');
+    search_inp.value = window.location.search.substring(1).split('=')[2];;
+}
+
+if (window.addEventListener) {
+  window.addEventListener("load", setup, false);
+} else if (window.attachEvent) {
+  window.attachEvent("onload", setup);
+}
+</script>
