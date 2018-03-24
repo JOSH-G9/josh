@@ -130,6 +130,9 @@ nav a {
     margin-top: 7em;
     width: 70%;
 }
+.name{font-size: 1.9em;
+color:rgb(13,12,12);}
+.imgs{size:3em}
 
 .link:hover{
     cursor: pointer;
