@@ -88,11 +88,11 @@ nav a {
 }
 /*----------------- END LOGAN --------------*/
 /*----------------- NIMA --------------*/
-.link {
+#link {
   text-decoration: none;
 }
 
-.link:hover {
+#link:hover {
   cursor: pointer;
 }
 #copyRight{font-size: 18px;}
