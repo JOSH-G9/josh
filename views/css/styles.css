@@ -29,8 +29,7 @@ table {  border-collapse: collapse;  border-spacing: 0;}
 body {
     background-color:rgba(224,227,207,.96);
 }
-/*----------------- Logan --------------*/
-/*header*/
+/*----------------- HEADER --------------*/
 .container {
     background: #35424a;
     color: #ffffff;
@@ -86,14 +85,71 @@ nav a {
   cursor: pointer;
   background: #f2f2f2;
 }
+/*----------------- END HEADER --------------*/
+/*----------------- Logan --------------*/
+#main_search {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .content {
     padding: .2em 1em;
-    margin: 1em 0;
+    margin: 2em 0;
     border-radius: 25px;
 }
 .content:hover {
     background-color: var(--backgroundWhite);
     cursor: pointer;
+}
+/* Dropdown Button */
+/* #dropD {
+    float: right;
+    position: relative;
+} */
+.dropbtn {
+    background-color: #35424a;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.actives {
+    color: #99ff66;
+    font-weight: bold;
+}
+.accordion {
+    background-color: #000000;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-top: 2em;
+}
+.active, .accordion:hover {
+    background-color: #99ff66;
+    color: #000000;
+}
+.panel {
+    padding: 0 18px;
+    background-color: #35424a;
+    display: none;
+    overflow: hidden;
+}
+.accordion:after {
+    content: '\02795';
+    font-size: 1em;
+    color: #35424a;
+    float: right;
+}
+.active:after {
+    content: "\2796";
 }
 /*----------------- END LOGAN --------------*/
 /*----------------- NIMA --------------*/
@@ -105,30 +161,70 @@ nav a {
 #link:hover {
   cursor: pointer;
 }
+#titleName{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+    margin-top: 2em;
+    color: rgb(53,148,38);
+    text-shadow: 5px 5px 10px black;
+}
+#menu{
+    padding: 10px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 7em;
+}
+.name{
+    font-size: 1.9em;
+    color:rgb(13,12,12);
+}
+.imgs{
+    width: 5em;
+}
 
-#main{margin-left: auto;
-margin-right: auto;
-width: 980px;}
-#titleName{font-family: sans-serif;
-font-weight: bold;
-font-size: 50px;
-text-align: center;
-margin-top:3em;}
-#menu{padding: 10px;
-margin-left: 50%;
-display: inline-block;}
-
-.link a:hover{cursor: pointer;}
-.link {padding: 8px;}
-.link a{text-decoration:none;}
-#search{display: inline-block;
-  margin-left:auto;
-  margin-right: auto;
-  text-align: center;
-  width:80%;
-padding: 12px;
-margin-top: 10px;}
-.search_input{height: 10px;}
+.link:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.link {
+    display: inline-block;
+    border-radius: 7px;
+    padding: 1em;
+    margin: 0 1em;
+}
+.link a{
+    text-decoration:none;
+}
+.link p {
+    margin: 0;
+    padding: 0;
+}
+#search {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 7em;
+}
+#search_input {
+    display: inline-block;
+    width: 20em;
+    margin: 12px;
+    font-size: 1.4em;
+    padding: .5em;
+    border-radius: 10px;
+}
+#search_button {
+    display: inline-block;
+    margin: 12px;
+    font-size: 1.4em;
+    padding: .5em;
+    border-radius: 10px;
+}
 
 /*----------------- END NIMA --------------*/
 /*----------------- KHOA --------------*/

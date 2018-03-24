@@ -12,7 +12,7 @@
         <nav>
             <a href="?page=home">|  nima</a>
             <a href="?page=searchPage">|  logan</a>
-            <a href="?page=newJob">|  Andy</a>
+            <a href="?page=results">|  Andy</a>
             <a href="?page=newJob">|  New job</a>
             <a href="?page=login">|  Login</a>
         </nav>

@@ -12,7 +12,7 @@ if (!empty($_POST['email']) and !empty($_POST['pass'])) {
       $sql2 = $db->query("SELECT active FROM customers WHERE id='$user_id' LIMIT 1;");
       if ($db->browse($sql2)[0] == 1) {
         $_SESSION['app_id'] = $user_id;
-        $HTML = 1;
+        $HTML = '<div class="alert-warning"><h4><strong>Error: </strong></h4><p>Successfully logigged in.</p></div>';
       }else {
         $HTML = '<div class="alert-warning"><h4><strong>Error: </strong></h4><p>You can not log in until your registration request has been approved.
 </p></div>';

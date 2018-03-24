@@ -1,5 +1,6 @@
-<div id="main">
+<div id="main_search">
     <div id="searchOptions">
+<<<<<<< HEAD
         <form action="">
             <select name="Option01" value="1"><option></option></select>
             <select name="Option02" value="2"><option></option></select>
@@ -7,6 +8,15 @@
             <select name="Option04" value="4"><option></option></select>
             <select name="Option05" value="5"><option></option></select>
         </form>
+=======
+        <article>
+            <button class="accordion">Metric BMR Calculator</button>
+            <div class="panel">
+                <form method="post">
+                    hello
+                </form>
+            </div>
+>>>>>>> b8e21d7ec3cdce68bc479114755b156596d14e21
     </div>
     <div id="contents">
         <div id="content01" class="content">

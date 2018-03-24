@@ -47,4 +47,5 @@
       </footer>
     </div>
   </body>
+  <script src="views/javascript/myScript.js" type="text/javascript"></script>
 </html>
