@@ -10,6 +10,7 @@
             <a><i class="fa fa-search" aria-hidden="true"></i></a>
         </form>
         <nav>
+<<<<<<< HEAD
           <a href="?page=home">|  Home</a>
           <a href="?page=searchPage">|  News</a>
           <a href="?page=newJob">|  New job</a>
@@ -23,6 +24,14 @@
 
 
            ?>
+=======
+            <a href="?page=home">|  Home</a>
+            <a href="?page=searchPage">|  logan</a>
+            <a href="?page=results">|  Andy</a>
+            <a href="?page=newJob">|  New job</a>
+            <a href="?page=register">|  Register</a>
+            <a href="?page=login">|  Login</a>
+>>>>>>> f8746e609932057ca29917e56983ac2dbfade940
         </nav>
     </div>
 </header>
