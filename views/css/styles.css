@@ -116,7 +116,10 @@ margin-left: 50%;}
 .link {padding: 8px;}
 .link a{text-decoration:none;}
 #search{display: inline-block;
-  margin-left: 16em;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+  width: 980px;
 padding: 12px;}
 
 /*----------------- END NIMA --------------*/
