@@ -6,8 +6,8 @@
   <body>
     <div id="body">
         <?php
-        if (isset($_GET['view'])) {
-          $view = $_GET['view'];
+        if (isset($_GET['page'])) {
+          $view = $_GET['page'];
         } else {
           $view = 'home';
         }
