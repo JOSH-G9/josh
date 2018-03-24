@@ -14,6 +14,7 @@
             <a href="?page=searchPage">|  logans page</a>
             <a href="?page=results">|  Andy</a>
             <a href="?page=newJob">|  Rod</a>
+            <a href="?page=newJob">|  New job</a>
             <a href="?page=login">|  Login</a>
         </nav>
     </div>
