@@ -96,6 +96,9 @@ nav a {
     padding: .2em 1em;
     margin: 2em 0;
     border-radius: 25px;
+    height: 10em;
+    overflow-y: hidden;
+
 }
 .content:hover {
     background-color: var(--backgroundWhite);
@@ -285,15 +288,18 @@ nav a {
 	font-size:1.5em;
 }
 .post_button {
-	background-color: #E3E1B8;
-	padding: 2px 4 px;
-	font:13px sans-serif;
-	text-decoration:none;
+	padding: 5px 10px;
+    margin: 1em;
+	font: 20px sans-serif;
 	border: 1px solid #000;
 	border-color: #aaa #444 #444 #aaa;
-	color:#000;
     display: inline-block;
     border: solid black 1px;
+    border-radius: 10px;
+}
+.post_button:hover {
+    background-color: black;
+    color: yellow;
 }
 /*----------------- END KHOA --------------*/
 footer {
