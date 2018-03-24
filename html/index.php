@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="views/css/styles.css">
-  </head>
+  <?php
+  include('html/general/head.php');
+  ?>
   <body>
     <div id="body">
-      <?php
-     include('html/general/header.php');
-      ?>
-      <div id="main">
-        
+        <?php
+        if (isset($_GET['view'])) {
+          $view = $_GET['view'];
+        } else {
+          $view = 'home';
+        }
+        switch ($view) {
+          case 'home':
+            include('core/controllers/homeController.php');
+            break;
+          case 'searchPage':
+            include('core/controllers/searchPageController.php');
+            break;
+          case 'results':
+            include('core/controllers/resultsController.php');
+            break;
+          default:
+            include('core/controllers/homeController.php');
+            break;
+        }
+        ?>
       <footer>
         <?php
         $db = new Connection();
