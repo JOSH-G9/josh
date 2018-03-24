@@ -1,4 +1,3 @@
-
 <div id="main_search">
     <div id="contents">
         <?php
@@ -31,7 +30,6 @@
                     "<div>";
                     }
                 $db->close();
-
             } else {
                 echo "<div id='content01' class='content'>".
                 "Nothing found".
@@ -42,14 +40,14 @@
 </div>
 
 <script>
-function setup() {
-    var search_inp = document.getElementById('search_inp');
-    search_inp.value = window.location.search.substring(1).split('=')[2];;
-}
+    function setup() {
+        var search_inp = document.getElementById('search_inp');
+        search_inp.value = window.location.search.substring(1).split('=')[2];;
+    }
 
-if (window.addEventListener) {
-  window.addEventListener("load", setup, false);
-} else if (window.attachEvent) {
-  window.attachEvent("onload", setup);
-}
+    if (window.addEventListener) {
+    window.addEventListener("load", setup, false);
+    } else if (window.attachEvent) {
+    window.attachEvent("onload", setup);
+    }
 </script>
