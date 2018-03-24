@@ -44,12 +44,13 @@ body {
 .container #branding h1 {
     margin: 0;
     font-size: 2em;
-    color: var(--MateBlack);
+    color: white;
     margin-left: 1em;
     margin-right: 2em;
 }
 .container #branding h1 a {
     text-decoration: none;
+    color: white;
 }
 nav {
     display: inline-block;
@@ -87,20 +88,21 @@ nav a {
 }
 /*----------------- END LOGAN --------------*/
 /*----------------- NIMA --------------*/
-.link {
+#link {
   text-decoration: none;
 }
 
-.link:hover {
+#link:hover {
   cursor: pointer;
 }
-#copyRight{font-size: 18px;}
 
 #main{margin-left: auto;
 margin-right: auto;
 width: 980px;}
 #titleName{font-family: sans-serif;
-font-weight: bold;}
+font-weight: bold;
+font-size: 38px;
+text-align: center;}
 
 /*----------------- END NIMA --------------*/
 /*----------------- KHOA --------------*/
