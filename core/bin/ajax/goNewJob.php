@@ -4,7 +4,7 @@ if (!empty($_POST['description']) and !empty($_POST['category'])) {
 
   $description = $db->real_escape_string(strtolower($_POST['description']));
   $category =  $db->real_escape_string($_POST['category']);
-  $user_id =  $_SESSION['app_id'];
+  $user_id =  1;
   if (isset($_POST['video_url'])) {
     $video_url =  $db->real_escape_string($_POST['video_url']);
   }
