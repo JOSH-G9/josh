@@ -34,9 +34,9 @@ div #createJob {
 <div id="createJob">
   <?php
   if (isset($_GET['msg']) and $_GET['msg'] == "1") {
-    echo "<div id="successful-msg">
+    echo '<div id="">
             <p>New job successfuly created.</p>
-          </div>";
+          </div>';
   }
   ?>
   <div id="_AJAX_NEWJOB_"></div>
