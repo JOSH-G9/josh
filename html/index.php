@@ -20,6 +20,7 @@
             include('core/controllers/searchPageController.php');
             break;
           case 'newJob':
+            include('html/general/header.php');
             include('core/controllers/newJobController.php');
             break;
           case 'results':
