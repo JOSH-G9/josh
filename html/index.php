@@ -18,16 +18,16 @@
             </form>
             <div id="links">
             <div id="website1">
-              <link id="link1" ahref="/css/master.css">
+              <link class="link" ahref="/css/master.css">
             </div>
             <div id="website2">
-               <link id="link2" ahref="/css/master.css">
+               <link class="link" ahref="/css/master.css">
             </div>
             <div id="website3">
-              <link id="link3" ahref="/css/master.css">
+              <link class="link" ahref="/css/master.css">
             </div>
              <div id="website4">
-               <link id="link4" ahref="/css/master.css">
+               <link class="link" ahref="/css/master.css">
              </div>
              
             </div>
