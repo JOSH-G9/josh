@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+﻿<<<<<<< HEAD
 =======
 /*------------------- RESET OF STYLES IN EVERY BROWSER ---------------------------*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -104,5 +104,14 @@ font-weight: bold;}
 
 /*----------------- END NIMA --------------*/
 /*----------------- KHOA --------------*/
-
+.Container h2{
+	font-variant:small-caps;
+	text-transform::capitalize;
+	font-size:1.5em;
+}
+.Container h3{
+	font-variant:small-caps;
+	text-transform::capitalize;
+	font-size:1.5em;
+}
 /*----------------- END KHOA --------------*/
