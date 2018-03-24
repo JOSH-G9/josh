@@ -6,9 +6,9 @@
   </head>
   <body>
     <div id="body">
-      <header>
- <p id="titleName">Job Shadowing</p>
-      </header>
+      <?php
+      include('html/general/header.php');
+      ?>
       <div id="main">
         <div id="search">
             <form action = "http://www.example.com/search.php" method = "post">
@@ -17,22 +17,20 @@
             </form>
             <div id="links">
             <div id="website1">
-              <link id="link1" ahref="/css/master.css">
+              <link class="link" ahref="/css/master.css">
             </div>
             <div id="website2">
-               <link id="link2" ahref="/css/master.css">
+               <link class="link" ahref="/css/master.css">
             </div>
             <div id="website3">
-              <link id="link3" ahref="/css/master.css">
+              <link class="link" ahref="/css/master.css">
             </div>
              <div id="website4">
-               <link id="link4" ahref="/css/master.css">
+               <link class="link" ahref="/css/master.css">
              </div>
 
             </div>
->>>>>>> 30182f61a318901e73be7f4d51d02b2faa88f087
         </div>
-<<<<<<< HEAD
             <div id="menu">
                 <div id="website1">
                     <link id="link1" ahref="/css/master.css">

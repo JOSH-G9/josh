@@ -8,7 +8,7 @@ if(isset($_GET['view'])){
     include('core/controllers/indexController.php');
   }
 }else {
-  include('html/pages/searchPage.php');
+  include('html/index.php');
 }
 
 ?>
