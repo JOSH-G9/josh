@@ -33,10 +33,12 @@ div #createJob {
 
 <div id="createJob">
   <?php
+  if (isset($_GET['msg']) and $_GET['msg'] == "1") {
+    echo '<div id="">
+            <p>New job successfuly created.</p>
+          </div>';
+  }
   ?>
-  <div id="successful-msg">
-    <p>New job successfuly created.</p>
-  </div>
   <div id="_AJAX_NEWJOB_"></div>
   <form action="" onkeypress="return runScriptNewJob(event)">
     <label for="description">Description</label>
@@ -58,7 +60,7 @@ div #createJob {
     <label for="video_url">Video URL</label>
     <input type="text" id="video_url" name="video_url" placeholder="Youtube, Vimeo URL">
 
-    <input type="submit" value="Submit">
+    <input type="button" value="Submit" onclick="goNewJob()">
   </form>
   <script src="views/javascript/newJob.js" type="text/javascript"></script>
 </div>
