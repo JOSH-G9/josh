@@ -37,12 +37,42 @@ body {
 }
 .container #branding {
     float: left;
+    text-decoration: none;
 }
 .container #branding h1 {
     margin: 0;
+    font-size: 2em;
+    color: var(--MateBlack);
+    margin-left: 1em;
+    margin-right: 2em;
 }
-<<<<<<< HEAD
-=======
+.container #branding h1 a {
+    text-decoration: none;
+}
+#search-form {
+  display: inline-block;
+  text-align: center;
+  padding-top: .3em;
+}
+#search-form input {
+  display: inline-block;
+  background: white;
+  width: 400px;
+  max-width: 100%;
+  padding: 5px;
+  vertical-align: top;
+}
+#search-form a {
+  display: inline-block;
+  background: white;
+  color: var(--MateBlack);
+  padding: 7px;
+  margin: o;
+}
+#search-form a:hover {
+  cursor: pointer;
+  background: #f2f2f2;
+}
 /*----------------- END LOGAN --------------*/
 /*----------------- NIMA --------------*/
 
@@ -50,4 +80,3 @@ body {
 /*----------------- KHOA --------------*/
 
 /*----------------- END KHOA --------------*/
->>>>>>> eaf3ef3b68800f4af82a4b6556ad9a919f7e838b
