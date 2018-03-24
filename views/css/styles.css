@@ -247,6 +247,13 @@ nav a {
 	font-size:1.5em;
 }
 .post_button {
+	background-color: #E3E1B8;
+	padding: 2px 4 px;
+	font:13px sans-serif;
+	text-decoration:none;
+	border: 1px solid #000;
+	border-color: #aaa #444 #444 #aaa;
+	color:#000;
     display: inline-block;
     border: solid black 1px;
 }
