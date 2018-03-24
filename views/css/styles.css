@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 /*------------------- RESET OF STYLES IN EVERY BROWSER ---------------------------*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
@@ -27,8 +29,6 @@ body {
     background-color: var(--backgroundWhite);
 }
 /*----------------- Logan --------------*/
-
-
 /*header*/
 .container {
     background: #35424a;
@@ -43,13 +43,14 @@ body {
 .container #branding h1 {
     margin: 0;
 }
-<<<<<<< HEAD
-=======
 /*----------------- END LOGAN --------------*/
 /*----------------- NIMA --------------*/
+.link{text-decoration: none;
+}
+
+a:hover{cursor: pointer;}
 
 /*----------------- END NIMA --------------*/
 /*----------------- KHOA --------------*/
 
 /*----------------- END KHOA --------------*/
->>>>>>> eaf3ef3b68800f4af82a4b6556ad9a919f7e838b
