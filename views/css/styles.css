@@ -185,6 +185,7 @@ nav a {
 .link {
     padding: 2em;
     display: inline-block;
+    border-radius: 7px;
 }
 .link a{
     text-decoration:none;
