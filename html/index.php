@@ -10,7 +10,7 @@
       include('');
       ?>
       <header>
- <p id="titleName">Job Shadowing</p>
+ <div id="titleName">Job Shadowing</div>
       </header>
       <div id="main">
         <div id="search">
@@ -22,7 +22,7 @@
 =======
 >>>>>>> 25d8d7fe37c92f6989dcc8dbe0e81bc5fd088361
             </form>
-            <div id="links">
+            <div id="menu">
             <div id="website1">
               <link class="link" ahref="/css/master.css">
             </div>
@@ -40,26 +40,16 @@
 >>>>>>> 30182f61a318901e73be7f4d51d02b2faa88f087
         </div>
 <<<<<<< HEAD
-            <div id="menu">
-                <div id="website1">
-                    <link id="link1" ahref="/css/master.css">
-                </div>
-                <div id="website2">
-                    <link id="website2" ahref="/css/master.css">
-                </div>
-                <div id="website3">
-                    <link id="website3" ahref="/css/master.css">
-                </div>
-                <div id="website4">
-                    <link id="website4" ahref="/css/master.css">
-                </div>
-            </div>
+
       </div>
       <footer>
         <?php
         $db = new Connection();
 
         ?>
+        <div id="copyRight">
+          Copyright (c) 2017-Job Shadowing-All Rights Reserved.
+        </div>
       </footer>
     </div>
   </body>
