@@ -10,10 +10,11 @@
             <a><i class="fa fa-search" aria-hidden="true"></i></a>
         </form>
         <nav>
-            <a href="?page=home">|  nimas page</a>
-            <a href="?page=searchPage">|  logans page</a>
-            <a href="?page=results">|  Andy</a>
-            <a href="?page=newJob">|  Rod</a>
+            <a href="?page=home">|  nima</a>
+            <a href="?page=searchPage">|  logan</a>
+            <a href="?page=newJob">|  Andy</a>
+            <a href="?page=results">|  Rod</a>
+            <a href="?page=login">|  Login</a>
         </nav>
     </div>
 </header>
