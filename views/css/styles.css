@@ -187,7 +187,7 @@ nav a {
 }
 /*----------------- END LOGAN --------------*/
 /*----------------- NIMA --------------*/
-/* #main_home {
+#main_home {
     background-color: rgba(255, 255, 255, 0.7);
     margin-left: 20%;
     margin-right: 20%;
@@ -266,7 +266,7 @@ nav a {
     font-size: 1.4em;
     padding: .5em;
     border-radius: 10px;
-} */
+}
 
 /*----------------- END NIMA --------------*/
 /*----------------- KHOA --------------*/
