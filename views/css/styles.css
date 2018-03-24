@@ -112,6 +112,14 @@ margin-top:6em;}
 
 /*----------------- END NIMA --------------*/
 /*----------------- KHOA --------------*/
+#main_job_posting {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+}
 .Container h2{
 	font-variant:small-caps;
 	text-transform::capitalize;
@@ -121,5 +129,9 @@ margin-top:6em;}
 	font-variant:small-caps;
 	text-transform::capitalize;
 	font-size:1.5em;
+}
+.post_button {
+    display: inline-block;
+    border: solid black 1px;
 }
 /*----------------- END KHOA --------------*/

@@ -12,8 +12,8 @@
         <nav>
             <a href="?page=home">|  nimas page</a>
             <a href="?page=searchPage">|  logans page</a>
-            <a href="?page=results">|  Andy</a>
-            <a href="?page=newJob">|  Rod</a>
+            <a href="?page=newJob">|  Andy</a>
+            <a href="?page=results">|  Rod</a>
         </nav>
     </div>
 </header>
