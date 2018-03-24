@@ -7,7 +7,8 @@ small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ul, li,
 fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, input, img{
   margin: 0; padding: 0;  border: 0;  outline: 0;  font-size: 100%;  vertical-align: baseline;  background: transparent;
 }
-body {  line-height: 1;}
+body {  line-height: 1;
+font-family: sans-serif;}
 ol, ul {  list-style: none;}
 blockquote, q {  quotes: none;}
 blockquote:before, blockquote:after, q:before, q:after {
@@ -80,11 +81,19 @@ nav a {
   background: white;
   color: var(--MateBlack);
   padding: 7px;
-  margin: o;
 }
 #search-form a:hover {
   cursor: pointer;
   background: #f2f2f2;
+}
+.content {
+    padding: .2em 1em;
+    margin: 1em 0;
+    border-radius: 25px;
+}
+.content:hover {
+    background-color: var(--backgroundWhite);
+    cursor: pointer;
 }
 /*----------------- END LOGAN --------------*/
 /*----------------- NIMA --------------*/
@@ -105,10 +114,21 @@ font-weight: bold;
 font-size: 50px;
 text-align: center;
 margin-top:3em;}
+#menu{padding: 10px;
+margin-left: 50%;
+display: inline-block;}
 
 .link a:hover{cursor: pointer;}
 .link {padding: 8px;}
 .link a{text-decoration:none;}
+#search{display: inline-block;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+  width:80%;
+padding: 12px;
+margin-top: 10px;}
+.search_input{height: 10px;}
 
 /*----------------- END NIMA --------------*/
 /*----------------- KHOA --------------*/

@@ -2,7 +2,7 @@
     <div class="container">
         <div id="branding">
             <h1>
-                <a href="#">Job <span class="highlight">Shadowing</span></a>
+                <a href="?page=home">Job <span class="highlight">Shadowing</span></a>
             </h1>
         </div>
         <form id="search-form" action = "" method="post">
@@ -13,7 +13,7 @@
             <a href="?page=home">|  nima</a>
             <a href="?page=searchPage">|  logan</a>
             <a href="?page=newJob">|  Andy</a>
-            <a href="?page=results">|  Rod</a>
+            <a href="?page=newJob">|  New job</a>
             <a href="?page=login">|  Login</a>
         </nav>
     </div>

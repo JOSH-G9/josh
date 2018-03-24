@@ -4,7 +4,7 @@
     </div>
     <div id="search">
         <form action = "?page=searchPage" method = "post">
-            <input class="search_input" maxlength="30" autocomplete="off" name="SearchHome" type = "text" placeholder = "Search job shadowing"/>
+            <input class="search_input" maxlength="30" autocomplete="off" name="SearchHome" size="70" type = "text" placeholder = "Search job shadowing"/>
             <input class="search_button" type = "submit" value = "Search"/>
         </form>
     </div>
