@@ -120,8 +120,12 @@ margin-left: 50%;}
 .link a:hover{cursor: pointer;}
 .link {padding: 8px;}
 .link a{text-decoration:none;}
-#search{margin-right: 63%;
-padding-top: 10px;}
+#search{display: inline-block;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+  width: 980px;
+padding: 12px;}
 
 /*----------------- END NIMA --------------*/
 /*----------------- KHOA --------------*/
