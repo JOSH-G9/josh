@@ -1,11 +1,10 @@
 <div id="main_search">
     <div id="searchOptions">
         <article>
-            <h2 id="heading">BMR Calculator</h2>
             <button class="accordion">Metric BMR Calculator</button>
             <div class="panel">
                 <form method="post">
-                    
+                    hello
                 </form>
             </div>
     </div>
