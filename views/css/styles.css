@@ -96,7 +96,6 @@ nav a {
     border-radius: 25px;
     height: 10em;
     overflow-y: hidden;
-
 }
 .content:hover {
     background-color: var(--backgroundWhite);
@@ -105,6 +104,10 @@ nav a {
 .content a {
     text-decoration: none;
     color: black;
+}
+#contents_title {
+    font-size: 2em;
+    margin: .5em 0;
 }
 .dropbtn {
     background-color: #35424a;
