@@ -1,7 +1,7 @@
 function goLogin() {
   var pass, email, form, connect;
-  email = __('email_login').value;
-  pass = __('pass_login').value;
+  email = document.getElementById('email_login').value;
+  pass = document.getElementById('pass_login').value;
 
   if (pass != '' && email != '') {
       form = 'email=' + email + '&pass=' + pass;
@@ -12,16 +12,16 @@ function goLogin() {
             result = '<div class="alert-success">';
             result += '<h4><strong>Login completed. </strong></h4><p>Logging in. </p>';
             result += '</div>';
-            __('_AJAX_LOG_').innerHTML =  result;
+            document.getElementById('_AJAX_LOG_').innerHTML =  result;
             location.reload();
           }else{
-            __('_AJAX_LOG_').innerHTML =  connect.responseText;
+            document.getElementById('_AJAX_LOG_').innerHTML =  connect.responseText;
           }
         }else if(connect.readyState != 4){
           result = '<div class="alert-warning">';
           result += '<h4><stron g>Processing... </strong></h4><p>Trying to log in...</p>';
           result += '</div>';
-          __('_AJAX_LOG_').innerHTML =  result;
+          document.getElementById('_AJAX_LOG_').innerHTML =  result;
         }
       }
       connect.open('POST','ajax.php?mode=login',true);
@@ -31,7 +31,7 @@ function goLogin() {
     result = '<div class="alert-danger">';
     result += '<h4><strong>Error: </strong></h4><p>All fields must be given. </p>';
     result += '</div>';
-    __('_AJAX_LOG_').innerHTML =  result;
+    document.getElementById('_AJAX_LOG_').innerHTML =  result;
   }
 }
 
