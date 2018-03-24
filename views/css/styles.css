@@ -115,8 +115,9 @@ margin-left: 50%;}
 .link a:hover{cursor: pointer;}
 .link {padding: 8px;}
 .link a{text-decoration:none;}
-#search{margin-right: 16em;
-padding: 10px;}
+#search{display: inline-block;
+  margin-left: 16em;
+padding: 12px;}
 
 /*----------------- END NIMA --------------*/
 /*----------------- KHOA --------------*/
