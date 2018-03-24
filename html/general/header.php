@@ -10,12 +10,19 @@
             <a><i class="fa fa-search" aria-hidden="true"></i></a>
         </form>
         <nav>
-            <a href="?page=home">|  nima</a>
-            <a href="?page=searchPage">|  logan</a>
-            <a href="?page=results">|  Andy</a>
-            <a href="?page=newJob">|  New job</a>
-            <a href="?page=register">|  Register</a>
-            <a href="?page=login">|  Login</a>
+          <a href="?page=home">|  Home</a>
+          <a href="?page=searchPage">|  News</a>
+          <a href="?page=newJob">|  New job</a>
+          <?php
+
+          if (isset($_SESSION['app_id'])) {
+            echo '<a href="?view=logout">|  Logout</a>';
+          } else {
+            echo '<a href="?page=register">|  Register</a><a href="?page=login">|  Login</a>';
+          }
+
+
+           ?>
         </nav>
     </div>
 </header>
