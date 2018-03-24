@@ -17,7 +17,9 @@
             </div>
         </header>
         <div id="main">
-            <p>hello.world</p>
+            <div id="title">
+                <h1>Job Shadowing</h1>
+            </div>
         </div>
         <footer></footer>
     </div>
