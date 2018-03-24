@@ -7,7 +7,7 @@
         </video>
         <p id="decription">This is decription</p>
     </div>
-		<input name="Submit1" type="submit" value="Send Email">
-		<input name="Submit1" type="submit" value="Apply" />
+		<input class="post_button" name="Submit1" type="submit" value="Send Email">
+		<input class="post_button" name="Submit1" type="submit" value="Apply" />
 	</form>
 </div>

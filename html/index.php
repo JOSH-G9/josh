@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <?php
-  include('html/general/head.php');
+  if (isset($_GET['page']) && $_GET['page'] == 'home') {
+      include('html/general/head_home.php');
+  }else {
+      include('html/general/head.php');
+  }
   ?>
   <body>
     <div id="body">
@@ -26,6 +30,10 @@
           case 'login':
             include('html/general/header.php');
             include('core/controllers/loginController.php');
+            break;
+          case 'register':
+            include('html/general/header.php');
+            include('core/controllers/registerController.php');
             break;
           case 'results':
           include('html/general/header.php');
