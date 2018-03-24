@@ -14,6 +14,7 @@
             <a href="?page=searchPage">|  logan</a>
             <a href="?page=results">|  Andy</a>
             <a href="?page=newJob">|  New job</a>
+            <a href="?page=register">|  Register</a>
             <a href="?page=login">|  Login</a>
         </nav>
     </div>

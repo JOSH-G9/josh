@@ -27,6 +27,10 @@
             include('html/general/header.php');
             include('core/controllers/loginController.php');
             break;
+          case 'register':
+            include('html/general/header.php');
+            include('core/controllers/registerController.php');
+            break;
           case 'results':
           include('html/general/header.php');
             include('core/controllers/resultsController.php');
