@@ -13,7 +13,7 @@ function goLogin() {
             result += '<h4><strong>Login completed. </strong></h4><p>Logging in. </p>';
             result += '</div>';
             document.getElementById('_AJAX_LOG_').innerHTML =  result;
-            location.replace('?page=home');
+            location.replace('index.php?page=home');
           }else{
             document.getElementById('_AJAX_LOG_').innerHTML =  connect.responseText;
           }
