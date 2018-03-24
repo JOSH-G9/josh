@@ -81,13 +81,18 @@ nav a {
   background: white;
   color: var(--MateBlack);
   padding: 7px;
-  margin: o;
 }
 #search-form a:hover {
   cursor: pointer;
   background: #f2f2f2;
 }
 .content {
+    padding: 0 1em;
+    margin: 1em 0;
+    border-radius: 25px;
+}
+.content:hover {
+    background-color: var(--backgroundWhite);
     cursor: pointer;
 }
 /*----------------- END LOGAN --------------*/
