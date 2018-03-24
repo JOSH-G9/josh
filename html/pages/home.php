@@ -1,9 +1,5 @@
 <<<<<<< HEAD
  <div id="search">
-=======
-<header>
-  <a href="?page=home">nimas page</a><a href="?page=searchPage">logans page</a><a href="?page=results">Andy</a>
-</header>
 
 <div id="search">
 >>>>>>> 612ba8e8ba7bd225af63ebbd6151ee94432dcdee
