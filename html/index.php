@@ -16,12 +16,14 @@
             include('core/controllers/homeController.php');
             break;
           case 'searchPage':
+            include('html/general/header.php');
             include('core/controllers/searchPageController.php');
             break;
           case 'newJob':
             include('core/controllers/newJobController.php');
             break;
           case 'results':
+          include('html/general/header.php');
             include('core/controllers/resultsController.php');
             break;
           default:

@@ -44,7 +44,7 @@ body {
 .container #branding h1 {
     margin: 0;
     font-size: 2em;
-    color: var(--MateBlack);
+    color: white;
     margin-left: 1em;
     margin-right: 2em;
 }
