@@ -6,7 +6,7 @@
             </h1>
         </div>
         <form id="search-form" action = "" method="post">
-            <input type="text" name="search" placeholder="Search events, friends and more"/>
+            <input type="text" name="search" placeholder="Search job shadowing"/>
             <a><i class="fa fa-search" aria-hidden="true"></i></a>
         </form>
         <nav>
