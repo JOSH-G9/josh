@@ -10,16 +10,28 @@
     </div>
     <div id="menu">
         <div id="link">
-            <link class="link" ahref="/css/master.css">
+            <a href="#">
+                <img src="#" alt="img" />
+                <p>menu</p>
+            </a>
         </div>
         <div id="link">
-            <link class="link" ahref="/css/master.css">
+            <a href="#">
+                <img src="#" alt="img" />
+                <p>menu</p>
+            </a>
         </div>
         <div id="link">
-            <link class="link" ahref="/css/master.css">
+            <a href="#">
+                <img src="#" alt="img" />
+                <p>menu</p>
+            </a>
         </div>
         <div id="link">
-            <link class="link" ahref="/css/master.css">
+            <a href="#">
+                <img src="#" alt="img" />
+                <p>menu</p>
+            </a>
         </div>
     </div>
 </div>

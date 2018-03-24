@@ -90,6 +90,7 @@ nav a {
 /*----------------- NIMA --------------*/
 #link {
   text-decoration: none;
+  display: inline-block;
 }
 
 #link:hover {
