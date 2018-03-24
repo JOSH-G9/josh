@@ -1,17 +1,13 @@
 <div id="main_search">
     <div id="searchOptions">
-        <form id="dropD">
-            <div class="dropdown">
-                <button onclick="dropdown()" class="dropbtn">Assignments</button>
-                <div id="myDropdown" class="dropdown-content">
-                    <input type="checkbox" name="Option01" value="1">Option 1
-                    <input type="checkbox" name="Option02" value="2">Option 2
-                    <input type="checkbox" name="Option02" value="3">Option 3
-                    <input type="checkbox" name="Option02" value="4">Option 4
-                    <input type="checkbox" name="Option02" value="5">Option 5
-                </div>
+        <article>
+            <h2 id="heading">BMR Calculator</h2>
+            <button class="accordion">Metric BMR Calculator</button>
+            <div class="panel">
+                <form method="post">
+                    
+                </form>
             </div>
-        </form>
     </div>
     <div id="contents">
         <div id="content01" class="content">
