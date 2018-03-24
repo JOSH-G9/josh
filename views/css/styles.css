@@ -25,11 +25,11 @@ table {  border-collapse: collapse;  border-spacing: 0;}
   --MateBlack: rgb(26, 26, 26);
 }
 /*----------------- END VARIABLES --------------*/
-
-
 body {
     background-color: var(--backgroundWhite);
 }
+/*----------------- Logan --------------*/
+
 
 /*header*/
 .container {
@@ -45,4 +45,10 @@ body {
 .container #branding h1 {
     margin: 0;
 }
->>>>>>> 2646a595be6a1fb6dec93e90dfecd466144f5758
+/*----------------- END LOGAN --------------*/
+/*----------------- NIMA --------------*/
+
+/*----------------- END NIMA --------------*/
+/*----------------- KHOA --------------*/
+
+/*----------------- END KHOA --------------*/
