@@ -32,7 +32,7 @@ div #createJob {
 </style>
 
 <div id="createJob">
-  <form action="/action_page.php">
+  <form action="" onkeypress="return runScriptNewJob(event)">
     <label for="description">Description</label>
     <input type="text" id="description" name="description" placeholder="Job Description...">
 
@@ -51,7 +51,8 @@ div #createJob {
     </select>
     <label for="video_url">Video URL</label>
     <input type="text" id="video_url" name="video_url" placeholder="Youtube, Vimeo URL">
-  
+
     <input type="submit" value="Submit">
   </form>
+  <script src="views/javascript/newJob.js" type="text/javascript"></script>
 </div>
