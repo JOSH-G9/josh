@@ -28,10 +28,19 @@
             </a>
         </div>
         <div class="link">
-            <a href="?page=login">
-                <img class="imgs" src="views/images/apple.jpg" alt="img" />
-                <p class="name">Log in</p>
-            </a>
+            <?php
+                if (isset($_SESSION['app_id'])) {
+                    echo '<a href="?view=logout">
+                        <img class="imgs" src="views/images/apple.jpg" alt="img" />
+                        <p class="name">Log out</p>
+                    </a>';
+                }else {
+                    echo '<a href="?page=login">
+                        <img class="imgs" src="views/images/apple.jpg" alt="img" />
+                        <p class="name">Log in</p>
+                    </a>';
+                }
+                ?>
         </div>
     </div>
 </div>

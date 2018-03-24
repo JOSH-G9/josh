@@ -10,7 +10,7 @@
             <a><i class="fa fa-search" aria-hidden="true"></i></a>
         </form>
         <nav>
-            <a href="?page=home">|  nima</a>
+            <a href="?page=home">|  Home</a>
             <a href="?page=searchPage">|  logan</a>
             <a href="?page=results">|  Andy</a>
             <a href="?page=newJob">|  New job</a>
