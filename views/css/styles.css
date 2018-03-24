@@ -111,7 +111,8 @@ nav a {
     font-size:65px;
     text-align: center;
     margin-top:3em;
-    color: rgb(47,59,16);
+    color: rgb(53,148,38);
+    text-shadow: 5px 5px 10px black;
 }
 #menu{
     padding: 10px;
@@ -144,7 +145,7 @@ nav a {
     display: inline-block;
     width: 20em;
     margin: 12px;
-    font-size: 1em;
+    font-size: 2em;
     padding: .5em;
     border-radius: 10px;
 }
