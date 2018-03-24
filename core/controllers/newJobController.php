@@ -1,1 +1,1 @@
-<?php include('html/pages/newJob.php'); ?>
+<?php include('html/pages/job_posting.php'); ?>
