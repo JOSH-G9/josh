@@ -110,9 +110,10 @@ nav a {
 #titleName{
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size:65px;
     text-align: center;
     margin-top:3em;
+    color: rgb(47,59,16);
 }
 #menu{
     padding: 10px;
@@ -121,6 +122,7 @@ nav a {
     margin-right: auto;
     text-align: center;
     width: 100%;
+    margin-top: 5em;
 }
 
 .link:hover{
@@ -138,7 +140,7 @@ nav a {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    margin-top: 3em;
+    margin-top: 7em;
 }
 #search_input {
     display: inline-block;
