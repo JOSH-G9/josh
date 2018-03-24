@@ -101,6 +101,53 @@ nav a {
     background-color: var(--backgroundWhite);
     cursor: pointer;
 }
+/* Dropdown Button */
+#dropD {
+    float: right;
+    position: relative;
+}
+.dropbtn {
+    background-color: #35424a;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.actives {
+    color: #99ff66;
+    font-weight: bold;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #99ff66;
+    color: black;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #35424a;
+}
+.dropdown-content a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    width: 8em;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    font-weight: bold;
+}
+.dropdown-content a:hover {
+    background-color: #99ff66;
+    color: black;
+}
+.show {
+    display:block;
+}
 /*----------------- END LOGAN --------------*/
 /*----------------- NIMA --------------*/
 #link {
