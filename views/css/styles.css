@@ -94,14 +94,13 @@ nav a {
 .link:hover {
   cursor: pointer;
 }
-#copyRight{font-size: 18px;}
 
 #main{margin-left: auto;
 margin-right: auto;
 width: 980px;}
 #titleName{font-family: sans-serif;
 font-weight: bold;
-font-size: 28px;}
+font-size: 38px;}
 
 /*----------------- END NIMA --------------*/
 /*----------------- KHOA --------------*/
