@@ -1,11 +1,11 @@
 <div id="main">
     <div id="searchOptions">
         <form action="">
-            <input type="checkbox" name="Option01" value="1">Option 1
-            <input type="checkbox" name="Option02" value="2">Option 2
-            <input type="checkbox" name="Option02" value="3">Option 3
-            <input type="checkbox" name="Option02" value="4">Option 4
-            <input type="checkbox" name="Option02" value="5">Option 5
+            <select name="Option01" value="1"><option></option></select>
+            <select name="Option02" value="2"><option></option></select>
+            <select name="Option03" value="3"><option></option></select>
+            <select name="Option04" value="4"><option></option></select>
+            <select name="Option05" value="5"><option></option></select>
         </form>
     </div>
     <div id="contents">

@@ -3,7 +3,7 @@
 
   </div>
   <div id="body-createJob">
-    <form class="" action="?mode=login" method="post">
+    <form class="" action="index.html" method="post">
       <table>
         <tr>
           <th><label for="email">Email:</label></th>
