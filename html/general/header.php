@@ -12,8 +12,14 @@
         <nav>
             <a href="?page=home">|  nimas page</a>
             <a href="?page=searchPage">|  logans page</a>
+<<<<<<< HEAD
             <a href="?page=newJob">|  Andy</a>
             <a href="?page=results">|  Rod</a>
+=======
+            <a href="?page=results">|  Andy</a>
+            <a href="?page=newJob">|  Rod</a>
+            <a href="?page=login">|  Login</a>
+>>>>>>> 4b39abcce29c31e1b8a90bda8255c61b66d6004e
         </nav>
     </div>
 </header>

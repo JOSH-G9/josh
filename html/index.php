@@ -23,6 +23,10 @@
             include('html/general/header.php');
             include('core/controllers/newJobController.php');
             break;
+          case 'login':
+            include('html/general/header.php');
+            include('core/controllers/loginController.php');
+            break;
           case 'results':
           include('html/general/header.php');
             include('core/controllers/resultsController.php');
