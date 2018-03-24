@@ -9,25 +9,25 @@
         </form>
     </div>
     <div id="menu">
-        <div id="link">
+        <div class="link">
             <a href="#">
                 <img src="#" alt="img" />
                 <p>menu</p>
             </a>
         </div>
-        <div id="link">
+        <div class="link">
             <a href="#">
                 <img src="#" alt="img" />
                 <p>menu</p>
             </a>
         </div>
-        <div id="link">
+        <div class="link">
             <a href="#">
                 <img src="#" alt="img" />
                 <p>menu</p>
             </a>
         </div>
-        <div id="link">
+        <div class="link">
             <a href="#">
                 <img src="#" alt="img" />
                 <p>menu</p>
