@@ -175,10 +175,14 @@ nav a {
     text-align: center;
     width: 100%;
     margin-top: 7em;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> c5368a1f0aea1fca1d725dbed077381020a6eff9
 }
 .name{font-size: 1.9em;
 color:rgb(13,12,12);}
-.imgs{size:3em}
+.imgs{size:3em;}
 
 .link:hover{
     cursor: pointer;
