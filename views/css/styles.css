@@ -108,12 +108,13 @@ font-size: 50px;
 text-align: center;
 margin-top:3em;}
 #menu{padding: 10px;
-margin-left: 60%;}
+margin-left: 50%;}
 
 .link a:hover{cursor: pointer;}
 .link {padding: 8px;}
 .link a{text-decoration:none;}
-#search{margin-right: 50%;}
+#search{margin-right: 63%;
+padding-top: 10px;}
 
 /*----------------- END NIMA --------------*/
 /*----------------- KHOA --------------*/
