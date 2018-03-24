@@ -154,14 +154,17 @@ nav a {
     text-align: center;
     width: 100%;
 }
-#Registration label, #Registration input, #Registration select {
-    margin-left: 2em;
-}
 #Registration {
-    color: #99ff66;
+    color: blue;
     font-size: 150%;
     font-family: Arial, sans-serif;
     margin-right: auto;
+}
+#register_title {
+    font-size: 250%;
+}
+#Registration #submit, #Registration #reset {
+    width: 7em;
 }
 #Registration input, #Registration select {
     font-size: 100%;
@@ -172,25 +175,22 @@ nav a {
     border-radius: 0.3em;
     width: 14em;
 }
-#submit, #reset {
-    width: 7em;
-}
 #Registration label, #idGender {
     font-size: 100%;
     font-family: Arial, sans-serif;
     margin-bottom: 1em;
     border-radius: 0.3em;
-    margin-left: 7%;
 }
 /*----------------- END LOGAN --------------*/
 /*----------------- NIMA --------------*/
 #main_home {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
     margin-left: 20%;
     margin-right: 20%;
     border-radius: 20px;
     padding-bottom: 9em;
     padding-top: 9em;
+
 }
 #link {
   text-decoration: none;
