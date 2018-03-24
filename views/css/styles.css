@@ -101,6 +101,10 @@ nav a {
     background-color: var(--backgroundWhite);
     cursor: pointer;
 }
+.content a {
+    text-decoration: none;
+    color: black;
+}
 /* Dropdown Button */
 /* #dropD {
     float: right;
