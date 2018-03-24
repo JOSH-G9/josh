@@ -7,7 +7,6 @@
   <body>
     <div id="body">
       <?php
-      include('');
      include('html/general/header.php');
       ?>
 <<<<<<< HEAD
