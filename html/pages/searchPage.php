@@ -1,4 +1,4 @@
-<div id="main">
+<div id="main_search">
     <div id="searchOptions">
         <form action="">
             <input type="checkbox" name="Option01" value="1">Option 1
