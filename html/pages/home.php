@@ -3,9 +3,9 @@
         Job Shadowing
     </div>
     <div id="search">
-        <form action="?page=searchPage" method="post">
-            <input id="search_input" class="search_input" maxlength="30" autocomplete="off" name="SearchHome" size="70" type = "text" placeholder="Search job shadowing"/>
-            <input id="search_button" class="search_button" type="submit" value="Search"/>
+        <form action="">
+            <input id="search_input" class="search_input" maxlength="30" autocomplete="off" name="search_input" size="70" type = "text" placeholder="Search job shadowing"/>
+            <input id="search_button" class="search_button" type="button" value="Search" onclick="goToSearch();"/>
         </form>
     </div>
     <div id="menu">
@@ -35,3 +35,4 @@
         </div>
     </div>
 </div>
+<script src="views/javascript/search.js" type="text/javascript"></script>
