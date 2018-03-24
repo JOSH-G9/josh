@@ -18,6 +18,9 @@
           case 'searchPage':
             include('core/controllers/searchPageController.php');
             break;
+          case 'newJob':
+            include('core/controllers/newJobController.php');
+            break;
           case 'results':
             include('core/controllers/resultsController.php');
             break;
