@@ -11,26 +11,26 @@
     <div id="menu">
         <div class="link">
             <a href="#">
-                <img src="#" alt="img" />
-                <p>menu</p>
+                <img class="imgs" src="#" alt="img" />
+                <p class="name">menu</p>
             </a>
         </div>
         <div class="link">
             <a href="#">
-                <img src="#" alt="img" />
-                <p>menu</p>
+                <img class="imgs" src="#" alt="img" />
+                <p class="name">menu</p>
             </a>
         </div>
         <div class="link">
             <a href="#">
-                <img src="#" alt="img" />
-                <p>menu</p>
+                <img class="imgs" src="#" alt="img" />
+                <p class="name">menu</p>
             </a>
         </div>
         <div class="link">
             <a href="#">
-                <img src="#" alt="img" />
-                <p>menu</p>
+                <img class="imgs" src="#" alt="img" />
+                <p class="name">menu</p>
             </a>
         </div>
     </div>
