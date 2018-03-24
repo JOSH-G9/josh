@@ -7,15 +7,11 @@
   <body>
     <div id="body">
       <?php
-      include('');
-     include('html/general/header.php');
+      include('html/general/header.php');
       ?>
-<<<<<<< HEAD
       <header>
- <div id="titleName">Job Shadowing</div>
+        <div id="titleName">Job Shadowing</div>
       </header>
-=======
->>>>>>> aa747c3f9128e6f44e2232502ced336960af6bff
       <div id="main">
         <div id="search">
             <form action = "http://www.example.com/search.php" method = "post">
@@ -38,25 +34,6 @@
 
             </div>
         </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-            <div id="menu">
-                <div id="website1">
-                    <link id="link1" ahref="/css/master.css">
-                </div>
-                <div id="website2">
-                    <link id="website2" ahref="/css/master.css">
-                </div>
-                <div id="website3">
-                    <link id="website3" ahref="/css/master.css">
-                </div>
-                <div id="website4">
-                    <link id="website4" ahref="/css/master.css">
-                </div>
-            </div>
->>>>>>> aa747c3f9128e6f44e2232502ced336960af6bff
       </div>
       <footer>
         <?php
