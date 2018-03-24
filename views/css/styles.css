@@ -157,6 +157,14 @@ nav a {
 }
 /*----------------- END LOGAN --------------*/
 /*----------------- NIMA --------------*/
+#main_home {
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    padding-bottom: 9em;
+    padding-top: 9em;
+}
 #link {
   text-decoration: none;
   display: inline-block;
@@ -170,7 +178,6 @@ nav a {
     font-weight: bold;
     font-size: 65px;
     text-align: center;
-    margin-top: 2em;
     color: rgb(53,148,38);
     text-shadow: 5px 5px 10px black;
 }
@@ -262,3 +269,6 @@ nav a {
     border: solid black 1px;
 }
 /*----------------- END KHOA --------------*/
+footer {
+    text-align: center;
+}
