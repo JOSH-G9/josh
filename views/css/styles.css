@@ -96,6 +96,9 @@ nav a {
     padding: .2em 1em;
     margin: 2em 0;
     border-radius: 25px;
+    height: 10em;
+    overflow-y: hidden;
+
 }
 .content:hover {
     background-color: var(--backgroundWhite);
@@ -154,14 +157,17 @@ nav a {
     text-align: center;
     width: 100%;
 }
-#Registration label, #Registration input, #Registration select {
-    margin-left: 2em;
-}
 #Registration {
-    color: #99ff66;
+    color: blue;
     font-size: 150%;
     font-family: Arial, sans-serif;
     margin-right: auto;
+}
+#register_title {
+    font-size: 250%;
+}
+#Registration #submit, #Registration #reset {
+    width: 7em;
 }
 #Registration input, #Registration select {
     font-size: 100%;
@@ -172,25 +178,22 @@ nav a {
     border-radius: 0.3em;
     width: 14em;
 }
-#submit, #reset {
-    width: 7em;
-}
 #Registration label, #idGender {
     font-size: 100%;
     font-family: Arial, sans-serif;
     margin-bottom: 1em;
     border-radius: 0.3em;
-    margin-left: 7%;
 }
 /*----------------- END LOGAN --------------*/
 /*----------------- NIMA --------------*/
 #main_home {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
     margin-left: 20%;
     margin-right: 20%;
     border-radius: 20px;
     padding-bottom: 9em;
     padding-top: 9em;
+
 }
 #link {
   text-decoration: none;
@@ -285,15 +288,18 @@ nav a {
 	font-size:1.5em;
 }
 .post_button {
-	background-color: #E3E1B8;
-	padding: 2px 4 px;
-	font:13px sans-serif;
-	text-decoration:none;
+	padding: 5px 10px;
+    margin: 1em;
+	font: 20px sans-serif;
 	border: 1px solid #000;
 	border-color: #aaa #444 #444 #aaa;
-	color:#000;
     display: inline-block;
     border: solid black 1px;
+    border-radius: 10px;
+}
+.post_button:hover {
+    background-color: black;
+    color: yellow;
 }
 /*----------------- END KHOA --------------*/
 footer {
