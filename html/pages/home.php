@@ -1,4 +1,4 @@
-<div id="main">
+<div id="main_home">
     <div id="titleName">
         Job Shadowing
     </div>
