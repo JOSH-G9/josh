@@ -25,7 +25,7 @@ table {  border-collapse: collapse;  border-spacing: 0;}
 }
 /*----------------- END VARIABLES --------------*/
 body {
-    background-color: rgba(224,227,207,.96);
+    background-image: url("https://az616578.vo.msecnd.net/files/2016/06/06/636007797281636517-1600558922_63592750462675948133989820_careers.jpg");
 }
 /*----------------- HEADER --------------*/
 .container {
@@ -185,7 +185,7 @@ nav a {
 /*----------------- END LOGAN --------------*/
 /*----------------- NIMA --------------*/
 #main_home {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
     margin-left: 20%;
     margin-right: 20%;
     border-radius: 20px;
@@ -256,6 +256,8 @@ nav a {
     font-size: 1.4em;
     padding: .5em;
     border-radius: 10px;
+    background-color: black;
+    color: white;
 }
 #search_button {
     display: inline-block;
@@ -263,6 +265,8 @@ nav a {
     font-size: 1.4em;
     padding: .5em;
     border-radius: 10px;
+    background-color: black;
+    color: white;
 }
 
 /*----------------- END NIMA --------------*/
