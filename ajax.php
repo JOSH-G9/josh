@@ -9,6 +9,9 @@ if ($_POST) {
     case 'newJob':
       require('core/bin/ajax/goNewJob.php');
       break;
+    case 'search':
+      require('core/bin/ajax/search.php');
+      break;
     default:
       header('location: index.php');
       break;
