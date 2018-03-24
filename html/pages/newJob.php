@@ -60,7 +60,7 @@ div #createJob {
     <label for="video_url">Video URL</label>
     <input type="text" id="video_url" name="video_url" placeholder="Youtube, Vimeo URL">
 
-    <input type="submit" value="Submit">
+    <input type="button" value="Submit" onclick="goNewJob()">
   </form>
   <script src="views/javascript/newJob.js" type="text/javascript"></script>
 </div>
