@@ -1,3 +1,3 @@
 <?php
-include('html/pages/job_posting.php');
+include('html/pages/newJob.php');
 ?>
