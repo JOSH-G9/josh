@@ -1,4 +1,4 @@
-<div id="main_home">
+<div id="main_registration">
     <article>
         <h2><strong>Member Registration</strong></h2>
         <form method="post" id="Registration" name="Registration" onsubmit="return validateForm()">
