@@ -51,11 +51,11 @@ div #loginPage {
       <table>
         <tr>
           <th><label for="email">Email:</label></th>
-          <td><input id="pass_login" type="text" name="email" value=""></td>
+          <td><input id="email_login" type="text" name="email" value=""></td>
         </tr>
         <tr>
           <th><label for="password">Password:</label></th>
-          <td><input id="email_login" type="password" name="password" value=""></td>
+          <td><input id="pass_login" type="password" name="password" value=""></td>
         </tr>
       </table><br>
       <input type="button" value="Submit" onclick="goLogin()">

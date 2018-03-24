@@ -10,8 +10,7 @@ if (!empty($_POST['email']) and !empty($_POST['pass'])) {
     if ($db->rows($sql) > 0) {
       $user_id = $db->browse($sql)[0];
       $_SESSION['app_id'] = $user_id;
-      $HTML = '<div class="alert-warning"><h4><strong>Error: </strong></h4><p>Successfully logigged in.</p></div>';
-      $db->drop($sql2);
+      $HTML = '<div class="alert-warning"><h4><strong>Success: </strong></h4><p>Successfully logigged in.</p></div>';
     } else {
       $HTML = '<div class="alert-danger"><h4><strong>Error: </strong></h4><p>The email and password dont match. </p></div>';
     }
