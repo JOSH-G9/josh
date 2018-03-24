@@ -102,10 +102,10 @@ nav a {
     cursor: pointer;
 }
 /* Dropdown Button */
-#dropD {
+/* #dropD {
     float: right;
     position: relative;
-}
+} */
 .dropbtn {
     background-color: #35424a;
     color: white;
@@ -131,7 +131,7 @@ nav a {
     position: absolute;
     background-color: #35424a;
 }
-.dropdown-content a {
+.dropdown-content input {
     color: #ffffff;
     text-decoration: none;
     display: block;
@@ -141,7 +141,7 @@ nav a {
     text-align: center;
     font-weight: bold;
 }
-.dropdown-content a:hover {
+.dropdown-content input:hover {
     background-color: #99ff66;
     color: black;
 }

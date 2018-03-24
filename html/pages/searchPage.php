@@ -1,9 +1,9 @@
 <div id="main_search">
     <div id="searchOptions">
-        <form id="dropD" action="">
+        <form id="dropD">
             <div class="dropdown">
                 <button onclick="dropdown()" class="dropbtn">Assignments</button>
-                <div class="myDropdown" class="dropdown-content">
+                <div id="myDropdown" class="dropdown-content">
                     <input type="checkbox" name="Option01" value="1">Option 1
                     <input type="checkbox" name="Option02" value="2">Option 2
                     <input type="checkbox" name="Option02" value="3">Option 3
@@ -11,11 +11,6 @@
                     <input type="checkbox" name="Option02" value="5">Option 5
                 </div>
             </div>
-            <input type="checkbox" name="Option01" value="1">Option 1
-            <input type="checkbox" name="Option02" value="2">Option 2
-            <input type="checkbox" name="Option02" value="3">Option 3
-            <input type="checkbox" name="Option02" value="4">Option 4
-            <input type="checkbox" name="Option02" value="5">Option 5
         </form>
     </div>
     <div id="contents">
@@ -45,4 +40,3 @@
         </div>
     </div>
 </div>
-<script src="views/javascript/myScript.js" type="text/javascript"></script>
