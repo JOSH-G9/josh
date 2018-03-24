@@ -51,6 +51,16 @@ body {
 .container #branding h1 a {
     text-decoration: none;
 }
+nav {
+    display: inline-block;
+    float: right;
+    margin-right: 1em;
+    font-size: 1.5em;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
 #search-form {
   display: inline-block;
   text-align: center;

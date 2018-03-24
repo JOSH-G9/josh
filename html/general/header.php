@@ -10,9 +10,9 @@
             <a><i class="fa fa-search" aria-hidden="true"></i></a>
         </form>
         <nav>
+            <a href="?view=home">|  nimas page</a>
+            <a href="?view=searchPage">|  logans page</a>
+            <a href="?view=results">|  Andy</a>
         </nav>
     </div>
-    <a href="?view=home">nimas page</a>
-    <a href="?view=searchPage">logans page</a>
-    <a href="?view=results">Andy</a>
 </header>
