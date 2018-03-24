@@ -29,8 +29,7 @@ table {  border-collapse: collapse;  border-spacing: 0;}
 body {
     background-color:rgba(224,227,207,.96);
 }
-/*----------------- Logan --------------*/
-/*header*/
+/*----------------- HEADER --------------*/
 .container {
     background: #35424a;
     color: #ffffff;
@@ -86,10 +85,13 @@ nav a {
   cursor: pointer;
   background: #f2f2f2;
 }
+/*----------------- END HEADER --------------*/
+/*----------------- Logan --------------*/
 .content {
     padding: .2em 1em;
     margin: 1em 0;
     border-radius: 25px;
+    width: 80%;
 }
 .content:hover {
     background-color: var(--backgroundWhite);
