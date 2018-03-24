@@ -32,6 +32,12 @@ div #createJob {
 </style>
 
 <div id="createJob">
+  <?php
+  ?>
+  <div id="successful-msg">
+    <p>New job successfuly created.</p>
+  </div>
+  <div id="_AJAX_NEWJOB_"></div>
   <form action="" onkeypress="return runScriptNewJob(event)">
     <label for="description">Description</label>
     <input type="text" id="description" name="description" placeholder="Job Description...">
