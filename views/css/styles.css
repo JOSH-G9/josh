@@ -118,35 +118,38 @@ nav a {
     color: #99ff66;
     font-weight: bold;
 }
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #99ff66;
-    color: black;
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #35424a;
-}
-.dropdown-content input {
-    color: #ffffff;
-    text-decoration: none;
-    display: block;
-    width: 8em;
-    height: 2.5em;
-    line-height: 2.5em;
-    text-align: center;
+.accordion {
+    background-color: #000000;
+    color: white;
+    font-size: 2em;
     font-weight: bold;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-top: 2em;
 }
-.dropdown-content input:hover {
+.active, .accordion:hover {
     background-color: #99ff66;
-    color: black;
+    color: #000000;
 }
-.show {
-    display:block;
+.panel {
+    padding: 0 18px;
+    background-color: #35424a;
+    display: none;
+    overflow: hidden;
+}
+.accordion:after {
+    content: '\02795';
+    font-size: 1em;
+    color: #35424a;
+    float: right;
+}
+.active:after {
+    content: "\2796";
 }
 /*----------------- END LOGAN --------------*/
 /*----------------- NIMA --------------*/
