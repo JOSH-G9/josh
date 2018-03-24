@@ -81,13 +81,20 @@ nav a {
   background: white;
   color: var(--MateBlack);
   padding: 7px;
-  margin: o;
 }
 #search-form a:hover {
   cursor: pointer;
   background: #f2f2f2;
 }
-.content
+.content {
+    padding: .2em 1em;
+    margin: 1em 0;
+    border-radius: 25px;
+}
+.content:hover {
+    background-color: var(--backgroundWhite);
+    cursor: pointer;
+}
 /*----------------- END LOGAN --------------*/
 /*----------------- NIMA --------------*/
 #link {
@@ -98,22 +105,54 @@ nav a {
 #link:hover {
   cursor: pointer;
 }
+#titleName{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top:3em;
+}
+#menu{
+    padding: 10px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
 
-#main{margin-left: auto;
-margin-right: auto;
-width: 980px;}
-#titleName{font-family: sans-serif;
-font-weight: bold;
-font-size: 50px;
-text-align: center;
-margin-top:3em;}
-#menu{padding: 10px;
-margin-left: 60%;}
-
-.link a:hover{cursor: pointer;}
-.link {padding: 8px;}
-.link a{text-decoration:none;}
-#search{margin-right: 50%;}
+.link:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.link {
+    padding: 8px;
+    display: inline-block;
+}
+.link a{
+    text-decoration:none;
+}
+#search {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 3em;
+}
+#search_input {
+    display: inline-block;
+    width: 20em;
+    margin: 12px;
+    font-size: 1em;
+    padding: .5em;
+    border-radius: 10px;
+}
+#search_button {
+    display: inline-block;
+    margin: 12px;
+    font-size: 1em;
+    padding: .5em;
+    border-radius: 10px;
+}
 
 /*----------------- END NIMA --------------*/
 /*----------------- KHOA --------------*/
