@@ -161,9 +161,9 @@ nav a {
 #titleName{
     font-family: sans-serif;
     font-weight: bold;
-    font-size:65px;
+    font-size: 65px;
     text-align: center;
-    margin-top:2em;
+    margin-top: 2em;
     color: rgb(53,148,38);
     text-shadow: 5px 5px 10px black;
 }
@@ -175,26 +175,31 @@ nav a {
     text-align: center;
     width: 100%;
     margin-top: 7em;
-<<<<<<< HEAD
-=======
-    
->>>>>>> c5368a1f0aea1fca1d725dbed077381020a6eff9
 }
-.name{font-size: 1.9em;
-color:rgb(13,12,12);}
-.imgs{size:3em;}
+.name{
+    font-size: 1.9em;
+    color:rgb(13,12,12);
+}
+.imgs{
+    width: 5em;
+}
 
 .link:hover{
     cursor: pointer;
     background-color: white;
 }
 .link {
-    padding: 2em;
     display: inline-block;
     border-radius: 7px;
+    padding: 1em;
+    margin: 0 1em;
 }
 .link a{
     text-decoration:none;
+}
+.link p {
+    margin: 0;
+    padding: 0;
 }
 #search {
     margin-left: auto;
