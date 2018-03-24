@@ -12,6 +12,7 @@ if (!empty($_POST['description']) and !empty($_POST['category'])) {
   $sql = $db->query("SELECT id FROM user WHERE id='$user_id';");
   if ($db->rows($sql) > 0) {
     $db->query("INSERT INTO jobs(description,video_url,poster_id,category_id) VALUES('$description','$video_url','$user_id','$category');");
+    $HTML = 1;
   } else {
     $HTML = '<div class="alert-danger"><h4><strong>Error: </strong></h4><p>The email doesnt exist. </p></div>';
   }
