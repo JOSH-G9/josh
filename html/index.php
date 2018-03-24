@@ -10,13 +10,13 @@
  <p id="titleName">Job Shadowing</p>
       </header>
       <div id="main">
-<<<<<<< HEAD
         <div id="search">
             <form action = "http://www.example.com/search.php" method = "post">
                 <input class="search_input" maxlength="30" autocomplete="off" name="SearchHome" type = "text" placeholder = "Search job shadowing"/>
                 <input class="search_button" type = "submit" value = "Search"/>
             </form>
         </div>
+<<<<<<< HEAD
             <div id="menu">
                 <div id="website1">
                     <link id="link1" ahref="/css/master.css">
@@ -31,10 +31,13 @@
                     <link id="website4" ahref="/css/master.css">
                 </div>
             </div>
-=======
->>>>>>> b1106d2ed2d9bde0427876b028a8d057186a6c72
       </div>
-      <footer></footer>
+      <footer>
+        <?php
+        $db = new Connection();
+
+        ?>
+      </footer>
     </div>
   </body>
 </html>
