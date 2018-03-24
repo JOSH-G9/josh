@@ -50,6 +50,7 @@ body {
 }
 .container #branding h1 a {
     text-decoration: none;
+    color: white;
 }
 nav {
     display: inline-block;
