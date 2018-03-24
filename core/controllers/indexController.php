@@ -1,5 +1,5 @@
 <?php
 
-include('html/pages/home.php');
+include('html/index.php');
 
 ?>
