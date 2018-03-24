@@ -7,15 +7,22 @@
   <body>
     <div id="body">
       <?php
-      include('html/general/header.php');
+      include('');
+     include('html/general/header.php');
       ?>
+<<<<<<< HEAD
+      <header>
+ <div id="titleName">Job Shadowing</div>
+      </header>
+=======
+>>>>>>> aa747c3f9128e6f44e2232502ced336960af6bff
       <div id="main">
         <div id="search">
             <form action = "http://www.example.com/search.php" method = "post">
                 <input class="search_input" maxlength="30" autocomplete="off" name="SearchHome" type = "text" placeholder = "Search job shadowing"/>
                 <input class="search_button" type = "submit" value = "Search"/>
             </form>
-            <div id="links">
+            <div id="menu">
             <div id="website1">
               <link class="link" ahref="/css/master.css">
             </div>
@@ -31,6 +38,10 @@
 
             </div>
         </div>
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
             <div id="menu">
                 <div id="website1">
                     <link id="link1" ahref="/css/master.css">
@@ -45,12 +56,16 @@
                     <link id="website4" ahref="/css/master.css">
                 </div>
             </div>
+>>>>>>> aa747c3f9128e6f44e2232502ced336960af6bff
       </div>
       <footer>
         <?php
         $db = new Connection();
 
         ?>
+        <div id="copyRight">
+          Copyright (c) 2017-Job Shadowing-All Rights Reserved.
+        </div>
       </footer>
     </div>
   </body>
