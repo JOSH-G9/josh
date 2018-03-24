@@ -3,17 +3,18 @@
 
   </div>
   <div id="body-createJob">
-    <form class="" action="?mode=login" method="post">
+    <form class="" action="?page=home" method="post" onkeypress="return runScriptLogin(event)">
       <table>
         <tr>
           <th><label for="email">Email:</label></th>
-          <td><input type="text" name="email" value=""></td>
+          <td><input id="pass_login" type="text" name="email" value=""></td>
         </tr>
         <tr>
           <th><label for="password">Password:</label></th>
-          <td><input type="password" name="password" value=""></td>
+          <td><input id="email_login" type="password" name="password" value=""></td>
         </tr>
       </table>
     </form>
   </div>
+  <script src="views/javascript/login.js" type="text/javascript"></script>
 </div>
